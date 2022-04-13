@@ -482,7 +482,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
     keywords: words("abstract assert break case catch class const continue default " +
                     "do else enum extends final finally for goto if implements import " +
                     "instanceof interface native new package private protected public " +
-                    "return static strictfp super switch synchronized this throw throws transient " +
+                    "record return static strictfp super switch synchronized this throw throws transient " +
                     "try volatile while @interface"),
     types: words("var byte short int long float double boolean char void Boolean Byte Character Double Float " +
                  "Integer Long Number Object Short String StringBuffer StringBuilder Void"),
